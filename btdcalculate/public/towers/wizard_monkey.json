@@ -1,0 +1,37 @@
+{
+    "name": "Wizard Monkey",
+    "basePrice": 450,
+    "upgradePaths": [
+      {
+        "path": "Path 1",
+        "upgrades": [
+          { "name": "Fireball", "price": 250 },
+          { "name": "Wall of Fire", "price": 500 },
+          { "name": "Dragon's Breath", "price": 2000 },
+          { "name": "Phoenix", "price": 5000 },
+          { "name": "Wizard Lord Phoenix", "price": 30000 }
+        ]
+      },
+      {
+        "path": "Path 2",
+        "upgrades": [
+          { "name": "Intense Magic", "price": 150 },
+          { "name": "Monkey Sense", "price": 300 },
+          { "name": "Arcane Blast", "price": 1000 },
+          { "name": "Arcane Mastery", "price": 3500 },
+          { "name": "Archmage", "price": 25000 }
+        ]
+      },
+      {
+        "path": "Path 3",
+        "upgrades": [
+          { "name": "Guided Magic", "price": 200 },
+          { "name": "Arcane Spike", "price": 900 },
+          { "name": "Shimmer", "price": 1200 },
+          { "name": "Necromancer", "price": 4000 },
+          { "name": "Prince of Darkness", "price": 20000 }
+        ]
+      }
+    ]
+  }
+  

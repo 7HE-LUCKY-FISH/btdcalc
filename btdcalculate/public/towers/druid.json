@@ -1,0 +1,36 @@
+{
+    "name": "Druid",
+    "basePrice": 200,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Thorn Swarm", "price": 100 },
+                { "name": "Heart of Oak", "price": 300 },
+                { "name": "Druid of the Jungle", "price": 1200 },
+                { "name": "Jungle's Bounty", "price": 6000 },
+                { "name": "Spirit of the Forest", "price": 35000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Hard Thorns", "price": 150 },
+                { "name": "Heart of Thunder", "price": 400 },
+                { "name": "Druid of the Storm", "price": 1000 },
+                { "name": "Ball Lightning", "price": 5000 },
+                { "name": "Superstorm", "price": 55000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Thorny Vines", "price": 200 },
+                { "name": "Heart of Vengeance", "price": 500 },
+                { "name": "Druid of Wrath", "price": 1500 },
+                { "name": "Poplust", "price": 4000 },
+                { "name": "Avatar of Wrath", "price": 45000 }
+            ]
+        }
+    ]
+}

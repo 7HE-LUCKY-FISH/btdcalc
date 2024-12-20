@@ -1,0 +1,37 @@
+{
+    "name": "Boomerang Monkey",
+    "basePrice": 325,
+    "upgradePaths": [
+      {
+        "path": "Path 1",
+        "upgrades": [
+          { "name": "Improved Rangs", "price": 200 },
+          { "name": "Glaives", "price": 400 },
+          { "name": "Bionic Boomerang", "price": 1000 },
+          { "name": "Turbo Charge", "price": 3000 },
+          { "name": "Perma Charge", "price": 20000 }
+        ]
+      },
+      {
+        "path": "Path 2",
+        "upgrades": [
+          { "name": "Long Range Rangs", "price": 150 },
+          { "name": "Red Hot Rangs", "price": 300 },
+          { "name": "Kylie Boomerang", "price": 1200 },
+          { "name": "MOAR Glaives", "price": 4000 },
+          { "name": "Glaive Lord", "price": 35000 }
+        ]
+      },
+      {
+        "path": "Path 3",
+        "upgrades": [
+          { "name": "Faster Throwing", "price": 250 },
+          { "name": "Even Faster Throwing", "price": 400 },
+          { "name": "Ricochet", "price": 1200 },
+          { "name": "Glaive Ricochet", "price": 5000 },
+          { "name": "Super Glaives", "price": 25000 }
+        ]
+      }
+    ]
+  }
+  

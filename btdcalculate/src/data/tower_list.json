@@ -1,0 +1,28 @@
+{
+  "towers": [
+    { "name": "Dart Monkey", "file": "towers/dart_monkey.json" },
+    { "name": "Boomerang Monkey", "file": "towers/boomerang_monkey.json" },
+    { "name": "Bomb Shooter", "file": "towers/bomb_shooter.json" },
+    { "name": "Tack Shooter", "file": "towers/tack_shooter.json" },
+    { "name": "Ice Monkey", "file": "towers/ice_monkey.json" },
+    { "name": "Glue Gunner", "file": "towers/glue_gunner.json" },
+    { "name": "Sniper Monkey", "file": "towers/sniper_monkey.json" },
+    {"name": "Monkey Sub", "file": "towers/monkey_sub.json" },
+    {"name": "Monkey Buccaneer", "file": "towers/monkey_buccaneer.json" },
+    { "name": "Monkey Ace", "file": "towers/monkey_ace.json" },
+    { "name": "Heli Pilot", "file": "towers/heli_pilot.json" },
+    { "name": "Mortar Monkey", "file": "towers/mortar_monkey.json" },
+    { "name": "Dartling Gunner", "file": "towers/dartling_gunner.json" },
+    { "name": "Wizard Monkey", "file": "towers/wizard_monkey.json" },
+    { "name": "Super Monkey", "file": "towers/super_monkey.json" },
+    { "name": "Ninja Monkey", "file": "towers/ninja_monkey.json" },
+    { "name": "Alchemist", "file": "towers/alchemist.json" },
+    { "name": "Druid", "file": "towers/druid.json" },
+    {"name": "Mermonkey", "file": "towers/mermonkey.json" },
+    { "name": "Banana Farm", "file": "towers/banana_farm.json" },
+    { "name": "Engineer Monkey", "file": "towers/engineer_monkey.json" },
+    { "name": "Spike Factory", "file": "towers/spike_factory.json" },
+    { "name": "Monkey Village", "file": "towers/monkey_village.json" },
+    {"name": "Beast Handler", "file": "towers/beast_handler.json" }
+  ]
+}

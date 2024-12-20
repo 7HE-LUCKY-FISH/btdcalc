@@ -1,0 +1,37 @@
+{
+    "name": "Bomb Shooter",
+    "basePrice": 450,
+    "upgradePaths": [
+      {
+        "path": "Path 1",
+        "upgrades": [
+          { "name": "Bigger Bombs", "price": 200 },
+          { "name": "Heavy Bombs", "price": 400 },
+          { "name": "Cluster Bombs", "price": 1200 },
+          { "name": "Recursive Cluster", "price": 4000 },
+          { "name": "Bomb Blitz", "price": 25000 }
+        ]
+      },
+      {
+        "path": "Path 2",
+        "upgrades": [
+          { "name": "Extra Range", "price": 150 },
+          { "name": "Missile Launcher", "price": 300 },
+          { "name": "MOAB Mauler", "price": 1000 },
+          { "name": "MOAB Assassin", "price": 3000 },
+          { "name": "MOAB Eliminator", "price": 20000 }
+        ]
+      },
+      {
+        "path": "Path 3",
+        "upgrades": [
+          { "name": "Faster Reload", "price": 250 },
+          { "name": "Rapid Reload", "price": 400 },
+          { "name": "Frag Bombs", "price": 900 },
+          { "name": "Fast Bombs", "price": 3500 },
+          { "name": "Big Bombs", "price": 15000 }
+        ]
+      }
+    ]
+  }
+  

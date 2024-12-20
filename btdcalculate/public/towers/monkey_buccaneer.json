@@ -1,0 +1,36 @@
+{
+    "name": "Monkey Buccaneer",
+    "basePrice": 700,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Long Range", "price": 150 },
+                { "name": "Crow's Nest", "price": 300 },
+                { "name": "Cannon Ship", "price": 700 },
+                { "name": "Monkey Pirates", "price": 5000 },
+                { "name": "Pirate Lord", "price": 25000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Grape Shot", "price": 200 },
+                { "name": "Hot Shot", "price": 400 },
+                { "name": "Destroyer", "price": 2500 },
+                { "name": "Aircraft Carrier", "price": 20000 },
+                { "name": "Carrier Flagship", "price": 50000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Faster Shooting", "price": 100 },
+                { "name": "Double Shot", "price": 300 },
+                { "name": "Merchantman", "price": 2000 },
+                { "name": "Favored Trades", "price": 5000 },
+                { "name": "Trade Empire", "price": 25000 }
+            ]
+        }
+    ]
+}

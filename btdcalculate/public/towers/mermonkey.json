@@ -1,0 +1,35 @@
+{
+    "name": "Mer Monkey",
+    "basePrice": 600,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Sharp Fins", "price": 250 },
+                { "name": "Hydro Blast", "price": 400 },
+                { "name": "Tsunami", "price": 2500 },
+                { "name": "Aqua Storm", "price": 9000 },
+                { "name": "Poseidon's Wrath", "price": 22000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Water Shield", "price": 150 },
+                { "name": "Bubble Trap", "price": 300 },
+                { "name": "Aqua Prison", "price": 1800 },
+                { "name": "Ocean's Embrace", "price": 4500 },
+                { "name": "Leviathan's Grasp", "price": 27000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Wider Splash", "price": 200 },
+                { "name": "Rapid Streams", "price": 600 },
+                { "name": "Tidal Wave", "price": 3500 },
+                { "name": "Maelstrom", "price": 12000 }
+            ]
+        }
+    ]
+}

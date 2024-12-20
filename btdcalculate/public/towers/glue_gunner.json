@@ -1,0 +1,36 @@
+{
+    "name": "Glue Gunner",
+    "basePrice": 150,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Glue Soak", "price": 100 },
+                { "name": "Corrosive Glue", "price": 200 },
+                { "name": "Stickier Glue", "price": 300 },
+                { "name": "Stronger Glue", "price": 600 },
+                { "name": "Glue Strike", "price": 3000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Glue Splatter", "price": 150 },
+                { "name": "Glue Hose", "price": 400 },
+                { "name": "Glue Gunner", "price": 1000 },
+                { "name": "Glue Liquefier", "price": 5000 },
+                { "name": "Glue Storm", "price": 20000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Bigger Globs", "price": 200 },
+                { "name": "Glue Splatter", "price": 500 },
+                { "name": "Glue Gunner", "price": 1500 },
+                { "name": "Glue Liquefier", "price": 4000 },
+                { "name": "Glue Storm", "price": 25000 }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Sniper Monkey",
+    "basePrice": 350,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Full Metal Jacket", "price": 300 },
+                { "name": "Large Caliber", "price": 600 },
+                { "name": "Deadly Precision", "price": 2500 },
+                { "name": "Maim MOAB", "price": 5000 },
+                { "name": "Cripple MOAB", "price": 20000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Night Vision Goggles", "price": 200 },
+                { "name": "Shrapnel Shot", "price": 400 },
+                { "name": "Bouncing Bullet", "price": 1500 },
+                { "name": "Supply Drop", "price": 3500 },
+                { "name": "Elite Sniper", "price": 14000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Fast Firing", "price": 100 },
+                { "name": "Even Faster Firing", "price": 200 },
+                { "name": "Semi-Automatic", "price": 1000 },
+                { "name": "Full Auto Rifle", "price": 4000 },
+                { "name": "Elite Defender", "price": 15000 }
+            ]
+        }
+    ]
+}

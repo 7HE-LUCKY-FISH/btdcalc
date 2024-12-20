@@ -1,0 +1,36 @@
+{
+    "name": "Alchemist",
+    "basePrice": 550,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Larger Potions", "price": 250 },
+                { "name": "Acidic Mixture Dip", "price": 500 },
+                { "name": "Berserker Brew", "price": 1000 },
+                { "name": "Stronger Stimulant", "price": 3000 },
+                { "name": "Permanent Brew", "price": 55000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Faster Throwing", "price": 200 },
+                { "name": "Acid Pool", "price": 400 },
+                { "name": "Lead to Gold", "price": 1200 },
+                { "name": "Rubber to Gold", "price": 3500 },
+                { "name": "Gold Production", "price": 20000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Larger Potions", "price": 250 },
+                { "name": "Perishing Potions", "price": 600 },
+                { "name": "Unstable Concoction", "price": 2500 },
+                { "name": "Transforming Tonic", "price": 5000 },
+                { "name": "Total Transformation", "price": 40000 }
+            ]
+        }
+    ]
+}

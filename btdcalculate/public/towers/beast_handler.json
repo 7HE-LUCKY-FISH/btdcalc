@@ -1,0 +1,36 @@
+{
+    "name": "Beast Handler",
+    "basePrice": 650,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Beast Tamer", "price": 300 },
+                { "name": "Animal Bond", "price": 600 },
+                { "name": "Savage Roar", "price": 1200 },
+                { "name": "Primal Instincts", "price": 3500 },
+                { "name": "Beast Mastery", "price": 50000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Quick Training", "price": 250 },
+                { "name": "Enhanced Bond", "price": 500 },
+                { "name": "Wild Fury", "price": 1500 },
+                { "name": "Alpha Pack", "price": 4000 },
+                { "name": "Ultimate Beast", "price": 25000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Beast Whisperer", "price": 350 },
+                { "name": "Ferocious Bond", "price": 700 },
+                { "name": "Predator's Call", "price": 2000 },
+                { "name": "Beastial Wrath", "price": 4500 },
+                { "name": "Beast King", "price": 45000 }
+            ]
+        }
+    ]
+}

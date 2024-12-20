@@ -1,0 +1,37 @@
+{
+    "name": "Tack Shooter",
+    "basePrice": 280,
+    "upgradePaths": [
+      {
+        "path": "Path 1",
+        "upgrades": [
+          { "name": "Faster Shooting", "price": 100 },
+          { "name": "Even Faster Shooting", "price": 200 },
+          { "name": "Hot Shots", "price": 500 },
+          { "name": "Ring of Fire", "price": 3000 },
+          { "name": "Inferno Ring", "price": 43000 }
+        ]
+      },
+      {
+        "path": "Path 2",
+        "upgrades": [
+          { "name": "Long Range Tacks", "price": 90 },
+          { "name": "Super Range Tacks", "price": 200 },
+          { "name": "Blade Shooter", "price": 400 },
+          { "name": "Blade Maelstrom", "price": 3500 },
+          { "name": "Super Maelstrom", "price": 20000 }
+        ]
+      },
+      {
+        "path": "Path 3",
+        "upgrades": [
+          { "name": "More Tacks", "price": 100 },
+          { "name": "Even More Tacks", "price": 200 },
+          { "name": "Tack Sprayer", "price": 450 },
+          { "name": "Overdrive", "price": 3000 },
+          { "name": "The Tack Zone", "price": 25000 }
+        ]
+      }
+    ]
+  }
+  
