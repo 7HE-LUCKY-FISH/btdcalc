@@ -19,5 +19,4 @@ This is my first time working with typescript as I thought it would be fun to le
    ```bash
    git clone https://github.com/7He-lucky-fish/btdcalc.git
    cd btdcalc
-````
-
+  ````
