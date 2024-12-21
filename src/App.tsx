@@ -41,12 +41,12 @@ interface Path {
   path: string;
   upgrades: Upgrade[];
 }
-
+/*
 interface AffordableUpgrade {
   tower: string;
   paths: Path[];
 }
-/*
+
 interface CalculationResult {
   remainingMoney: number;
   earnedSoFar: number;
