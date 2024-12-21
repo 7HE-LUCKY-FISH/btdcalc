@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://7he-lucky-fish.github.io/btdcalculate/",
+  "homepage": "https://7he-lucky-fish.github.io/btdcalc/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
