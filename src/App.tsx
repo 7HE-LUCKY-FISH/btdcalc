@@ -46,13 +46,13 @@ interface AffordableUpgrade {
   tower: string;
   paths: Path[];
 }
-
+/*
 interface CalculationResult {
   remainingMoney: number;
   earnedSoFar: number;
   affordableUpgrades: AffordableUpgrade[];
 }
-
+*/
 // Round income data (simplified example)
 
 const TOTAL_CHIMPS_MONEY = 178909.4
