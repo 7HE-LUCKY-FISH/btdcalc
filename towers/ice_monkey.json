@@ -1,0 +1,35 @@
+{
+    "name": "Ice Monkey",
+    "basePrice": 500,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Enhanced Freeze", "price": 200 },
+                { "name": "Deep Freeze", "price": 300 },
+                { "name": "Arctic Wind", "price": 2000 },
+                { "name": "Snowstorm", "price": 8000 },
+                { "name": "Absolute Zero", "price": 20000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Permafrost", "price": 100 },
+                { "name": "Cold Snap", "price": 250 },
+                { "name": "Ice Shards", "price": 1500 },
+                { "name": "Embrittlement", "price": 4000 },
+                { "name": "Super Brittle", "price": 25000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Larger Radius", "price": 150 },
+                { "name": "Refreeze", "price": 500 },
+                { "name": "Icicles", "price": 3000 },
+                { "name": "Icicle Impale", "price": 10000 }
+            ]
+        }
+    ]
+}

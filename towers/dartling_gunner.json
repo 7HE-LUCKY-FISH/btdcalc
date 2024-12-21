@@ -1,0 +1,36 @@
+{
+    "name": "Dartling Gunner",
+    "basePrice": 950,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Focused Firing", "price": 300 },
+                { "name": "Laser Shock", "price": 600 },
+                { "name": "Hydro Rocket Pods", "price": 2500 },
+                { "name": "Rocket Storm", "price": 16000 },
+                { "name": "MAD", "price": 85000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Advanced Targeting", "price": 200 },
+                { "name": "Faster Barrel Spin", "price": 500 },
+                { "name": "Laser Cannon", "price": 3200 },
+                { "name": "Plasma Accelerator", "price": 25000 },
+                { "name": "Ray of Doom", "price": 120000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Powerful Darts", "price": 50 },
+                { "name": "Buckshot", "price": 1500 },
+                { "name": "Bloon Area Denial System", "price": 12000 },
+                { "name": "Bloon Exclusion Zone", "price": 60000 },
+                { "name": "The Big One", "price": 30000 }
+            ]
+        }
+    ]
+}

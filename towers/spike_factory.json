@@ -1,0 +1,36 @@
+{
+    "name": "Spike Factory",
+    "basePrice": 1000,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Bigger Stacks", "price": 200 },
+                { "name": "White Hot Spikes", "price": 400 },
+                { "name": "Spiked Balls", "price": 3000 },
+                { "name": "Spiked Mines", "price": 6000 },
+                { "name": "Super Mines", "price": 120000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Faster Production", "price": 250 },
+                { "name": "Even Faster Production", "price": 500 },
+                { "name": "MOAB Shredder", "price": 2500 },
+                { "name": "Spike Storm", "price": 10000 },
+                { "name": "Carpet of Spikes", "price": 40000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Long Reach", "price": 150 },
+                { "name": "Smart Spikes", "price": 500 },
+                { "name": "Long Life Spikes", "price": 1000 },
+                { "name": "Deadly Spikes", "price": 5000 },
+                { "name": "Perma-Spike", "price": 25000 }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Mortar Monkey",
+    "basePrice": 750,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Increased Accuracy", "price": 200 },
+                { "name": "Burny Stuff", "price": 600 },
+                { "name": "Signal Flare", "price": 1200 },
+                { "name": "Shattering Shells", "price": 3000 },
+                { "name": "The Big One", "price": 10000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Faster Reload", "price": 300 },
+                { "name": "Rapid Reload", "price": 600 },
+                { "name": "Heavy Shells", "price": 1500 },
+                { "name": "Artillery Battery", "price": 5000 },
+                { "name": "Pop and Awe", "price": 20000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Bigger Blast", "price": 400 },
+                { "name": "Bloon Buster", "price": 800 },
+                { "name": "Shell Shock", "price": 2000 },
+                { "name": "Biggest One", "price": 25000 }
+            ]
+        }
+    ]
+}

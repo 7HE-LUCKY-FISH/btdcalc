@@ -1,0 +1,36 @@
+{
+    "name": "Super Monkey",
+    "basePrice": 2500,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Laser Blasts", "price": 3000 },
+                { "name": "Plasma Blasts", "price": 5000 },
+                { "name": "Sun Avatar", "price": 20000 },
+                { "name": "The Sun Temple", "price": 100000 },
+                { "name": "The True Sun God", "price": 500000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Super Range", "price": 1000 },
+                { "name": "Epic Range", "price": 3000 },
+                { "name": "Robo Monkey", "price": 5000 },
+                { "name": "Tech Terror", "price": 20000 },
+                { "name": "The Anti-Bloon", "price": 100000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Knockback", "price": 1500 },
+                { "name": "Ultra Vision", "price": 2000 },
+                { "name": "Dark Knight", "price": 5000 },
+                { "name": "Dark Champion", "price": 20000 },
+                { "name": "Legend of the Night", "price": 200000 }
+            ]
+        }
+    ]
+}

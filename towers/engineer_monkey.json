@@ -1,0 +1,36 @@
+{
+    "name": "Engineer Monkey",
+    "basePrice": 300,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Sentry Gun", "price": 100 },
+                { "name": "Faster Engineering", "price": 200 },
+                { "name": "Sprockets", "price": 500 },
+                { "name": "Sentry Expert", "price": 3000 },
+                { "name": "Sentry Champion", "price": 20000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Oversize Nails", "price": 150 },
+                { "name": "Pin", "price": 250 },
+                { "name": "Double Gun", "price": 600 },
+                { "name": "Bloon Trap", "price": 3500 },
+                { "name": "XXXL Trap", "price": 40000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Larger Service Area", "price": 200 },
+                { "name": "Deconstruction", "price": 300 },
+                { "name": "Cleansing Foam", "price": 800 },
+                { "name": "Overclock", "price": 5000 },
+                { "name": "Ultra Boost", "price": 100000 }
+            ]
+        }
+    ]
+}

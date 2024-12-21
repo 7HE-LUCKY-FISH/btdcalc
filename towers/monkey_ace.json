@@ -1,0 +1,35 @@
+{
+    "name": "Monkey Ace",
+    "basePrice": 800,
+    "upgradePaths": [
+        {
+            "path": "Path 1",
+            "upgrades": [
+                { "name": "Rapid Fire", "price": 300 },
+                { "name": "Lots More Darts", "price": 600 },
+                { "name": "Never Miss Targeting", "price": 2500 },
+                { "name": "Spectre", "price": 18000 },
+                { "name": "Flying Fortress", "price": 100000 }
+            ]
+        },
+        {
+            "path": "Path 2",
+            "upgrades": [
+                { "name": "Exploding Pineapple", "price": 200 },
+                { "name": "Spy Plane", "price": 450 },
+                { "name": "Operation Dart Storm", "price": 3500 },
+                { "name": "Sky Shredder", "price": 25000 },
+                { "name": "Goliath Doomship", "price": 500000 }
+            ]
+        },
+        {
+            "path": "Path 3",
+            "upgrades": [
+                { "name": "Sharper Darts", "price": 150 },
+                { "name": "Centered Path", "price": 500 },
+                { "name": "Ground Zero", "price": 20000 },
+                { "name": "Tsar Bomba", "price": 40000 }
+            ]
+        }
+    ]
+}
