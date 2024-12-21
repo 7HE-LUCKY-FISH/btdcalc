@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+# BTD CHIMPS Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BTD CHIMPS Calculator is a React-based application designed to assist players in strategizing and optimizing their gameplay in the CHIMPS mode of Bloons Tower Defense (BTD6). This tool helps track rounds, calculate earned money, and suggest optimal tower upgrades based on remaining resources.
 
-Currently, two official plugins are available:
+This is my first time working with typescript as I thought it would be fun to learn it so I will keep working on it expect more version in the future with a way more polished look than what it is right now. -Ly
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Current Round Tracking**: Input and monitor the current round in CHIMPS mode.
+- **Money Calculation**: Calculate earned and remaining money based on performance.
+- **Tower Selection**: Select multiple towers to analyze available upgrades.
+- **Upgrade Suggestions**: Get recommendations for affordable upgrades based on remaining money.
+- **Responsive Design**: User-friendly interface optimized for various screen sizes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the repository**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   ```bash
+   git clone https://github.com/7He-lucky-fish/btdcalc.git
+   cd btdcalc
+````
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
