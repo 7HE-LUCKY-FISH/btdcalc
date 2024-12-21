@@ -5,8 +5,8 @@ import chimpsData from './data/chimps.json'
 import towerList from './data/tower_list.json'
 
 interface ChimpsCalcState {
-  currentRound: number;
-  currentMoney: number;
+  currentRound: string; // Changed from number to string
+  currentMoney: string; // Changed from number to string
   selectedTowers: Set<string>;
 }
 
@@ -75,8 +75,8 @@ const CHIMPS_MONEY_REMAIN: Record<number, number> = chimpsData.rounds.reduce(
 
 function App() {
   const [state, setState] = useState<ChimpsCalcState>({
-    currentRound: 6,
-    currentMoney: 650,
+    currentRound: '6', // Changed to string
+    currentMoney: '650', // Changed to string
     selectedTowers: new Set()
   });
 
@@ -88,28 +88,32 @@ function App() {
 
   const [errors, setErrors] = useState<ValidationError[]>([]);
 
-  const getMoneyGainedForRound = (round: number): number => {
-    return CHIMPS_ROUND_INCOME[round] || 0;
+  const getMoneyGainedForRound = (round: string): number => {
+    return CHIMPS_ROUND_INCOME[parseInt(round)] || 0;
   };
 
-  const calculateRemainingMoney = (currentRound: number, currentMoney: number): number => {
-    const roundIncome =  CHIMPS_MONEY_REMAIN[currentRound-1] || 0;
-    const remainingMoney = (TOTAL_CHIMPS_MONEY - roundIncome) + currentMoney;
+  const calculateRemainingMoney = (currentRound: string, currentMoney: string): number => {
+    const roundNum = parseInt(currentRound);
+    const moneyNum = parseFloat(currentMoney);
+    const roundIncome = CHIMPS_MONEY_REMAIN[roundNum - 1] || 0;
+    const remainingMoney = (TOTAL_CHIMPS_MONEY - roundIncome) + moneyNum;
     return Math.round(remainingMoney * 100) / 100;
   };
 
-  // Add validation function
+  // Update validation to handle string values
   const validateInputs = (): ValidationError[] => {
     const errors: ValidationError[] = [];
+    const roundNum = parseInt(state.currentRound);
+    const moneyNum = parseFloat(state.currentMoney);
     
-    if (state.currentRound < 6 || state.currentRound > 100) {
+    if (isNaN(roundNum) || roundNum < 6 || roundNum > 100) {
       errors.push({
         field: 'round',
         message: 'Round must be between 6 and 100'
       });
     }
   
-    if (state.currentMoney < 0) {
+    if (isNaN(moneyNum) || moneyNum < 0) {
       errors.push({
         field: 'money',
         message: 'Money cannot be negative'
@@ -151,9 +155,10 @@ function App() {
       const remaining = calculateRemainingMoney(state.currentRound, state.currentMoney);
       const earned = getMoneyGainedForRound(state.currentRound);
 
-      const resultData: any = {
+      const resultData = {
         remainingMoney: remaining,
-        earnedSoFar: earned
+        earnedSoFar: earned,
+        affordableUpgrades: []
       };
 
       const towerPromises = Array.from(state.selectedTowers)
@@ -223,13 +228,25 @@ function App() {
           <input
             type="number"
             id="round"
-            min={6}
-            max={100}
             value={state.currentRound}
             onChange={(e) => setState({
               ...state,
-              currentRound: parseInt(e.target.value) || 6
+              currentRound: e.target.value
             })}
+            onBlur={(e) => {
+              const value = parseInt(e.target.value);
+              if (!isNaN(value)) {
+                setState({
+                  ...state,
+                  currentRound: Math.max(6, Math.min(100, value)).toString()
+                });
+              } else {
+                setState({
+                  ...state,
+                  currentRound: '6'
+                });
+              }
+            }}
             className={errors.some(e => e.field === 'round') ? 'error' : ''}
           />
         </div>
@@ -241,8 +258,15 @@ function App() {
             value={state.currentMoney}
             onChange={(e) => setState({
               ...state,
-              currentMoney: parseFloat(e.target.value) || 0
+              currentMoney: e.target.value
             })}
+            onBlur={(e) => {
+              const value = parseFloat(e.target.value);
+              setState({
+                ...state,
+                currentMoney: isNaN(value) ? '0' : value.toString()
+              });
+            }}
             className={errors.some(e => e.field === 'money') ? 'error' : ''}
           />
         </div>
@@ -277,7 +301,7 @@ function App() {
   <div className="results">
     <h3>Results:</h3>
     <p>Money Earned This Round: ${result.earnedSoFar}</p>
-    <p>Remaining Money at Start of Current Round: ${result.remainingMoney}</p>
+    <p>Remaining Money Until Round 100: ${result.remainingMoney}</p>
     {result.affordableUpgrades && (
       <div className="available-upgrades">
         <h4>Available Upgrades:</h4>
