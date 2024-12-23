@@ -5,31 +5,31 @@
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Increased Production", "price": 300 },
-                { "name": "Greater Production", "price": 600 },
-                { "name": "Banana Plantation", "price": 2500 },
-                { "name": "Banana Research Facility", "price": 16000 },
-                { "name": "Banana Central", "price": 85000 }
+                { "name": "Increased Production", "price": 600 },
+                { "name": "Greater Production", "price": 720 },
+                { "name": "Banana Plantation", "price": 3600 },
+                { "name": "Banana Research Facility", "price": 22800 },
+                { "name": "Banana Central", "price": 138000 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Long Life Bananas", "price": 200 },
-                { "name": "Valuable Bananas", "price": 500 },
-                { "name": "Monkey Bank", "price": 3200 },
-                { "name": "Monkeynomics", "price": 25000 },
-                { "name": "Central Market", "price": 12000 }
+                { "name": "Long Life Bananas", "price": 360 },
+                { "name": "Valuable Bananas", "price": 960 },
+                { "name": "Monkey Bank", "price": 4380 },
+                { "name": "IMF Loan", "price": 8640 },
+                { "name": "Monkeynomics", "price": 120000 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Easy Collect", "price": 50 },
-                { "name": "Marketplace", "price": 1500 },
-                { "name": "Central Market", "price": 12000 },
-                { "name": "Monkey Wall Street", "price": 60000 },
-                { "name": "Banana Salvage", "price": 30000 }
+                { "name": "Easy Collect", "price": 300 },
+                { "name": "Banana Salvage", "price": 480 },
+                { "name": "Marketplace", "price": 3240 },
+                { "name": "Central Market", "price": 18000 },
+                { "name": "Monkey Wall Street", "price": 84000 }
             ]
         }
     ]
