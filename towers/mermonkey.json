@@ -1,34 +1,35 @@
 {
-    "name": "Mer Monkey",
-    "basePrice": 600,
+    "name": "Mermonkey",
+    "basePrice": 570,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Sharp Fins", "price": 250 },
-                { "name": "Hydro Blast", "price": 400 },
-                { "name": "Tsunami", "price": 2500 },
-                { "name": "Aqua Storm", "price": 9000 },
-                { "name": "Poseidon's Wrath", "price": 22000 }
+                { "name": "Trident Efficiency", "price": 300 },
+                { "name": "Trident Swiftness", "price": 360 },
+                { "name": "Abyss Dweller", "price": 2520 },
+                { "name": "Abysall Warrior", "price": 4320 },
+                { "name": "Lord of the Abyss", "price": 27600 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Water Shield", "price": 150 },
-                { "name": "Bubble Trap", "price": 300 },
-                { "name": "Aqua Prison", "price": 1800 },
-                { "name": "Ocean's Embrace", "price": 4500 },
-                { "name": "Leviathan's Grasp", "price": 27000 }
+                { "name": "Sharper Prongs", "price": 360 },
+                { "name": "Tidal Chill", "price": 480 },
+                { "name": "Rpitide Champion", "price": 2760 },
+                { "name": "Arctic Knight", "price": 9600 },
+                { "name": "Popseidon", "price": 62400 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Wider Splash", "price": 200 },
-                { "name": "Rapid Streams", "price": 600 },
-                { "name": "Tidal Wave", "price": 3500 },
-                { "name": "Maelstrom", "price": 12000 }
+                { "name": "Echosense Precision", "price": 240 },
+                { "name": "Echosense Network", "price": 455 },
+                { "name": "Alluring Melody", "price": 2400 },
+                { "name": "Symphonic Resonance", "price": 9120 },
+                { "name": "The Final Harmonic", "price": 30000}
             ]
         }
     ]

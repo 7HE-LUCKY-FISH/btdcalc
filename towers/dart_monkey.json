@@ -1,35 +1,35 @@
 {
     "name": "Dart Monkey",
-    "basePrice": 170,
+    "basePrice": 240,
     "upgradePaths": [
       {
         "path": "Path 1",
         "upgrades": [
-          { "name": "Sharp Shots", "price": 100 },
-          { "name": "Razor Sharp Shots", "price": 200 },
-          { "name": "Spike-o-pult", "price": 500 },
-          { "name": "Juggernaut", "price": 2800 },
-          { "name": "Ultra-Juggernaut", "price": 15000 }
+          { "name": "Sharp Shots", "price": 170 },
+          { "name": "Razor Sharp Shots", "price": 265 },
+          { "name": "Spike-o-pult", "price": 360 },
+          { "name": "Juggernaut", "price": 2160},
+          { "name": "Ultra-Juggernaut", "price": 18000 }
         ]
       },
       {
         "path": "Path 2",
         "upgrades": [
-          { "name": "Quick Shots", "price": 90 },
-          { "name": "Very Quick Shots", "price": 200 },
+          { "name": "Quick Shots", "price": 120 },
+          { "name": "Very Quick Shots", "price": 230 },
           { "name": "Triple Shot", "price": 400 },
-          { "name": "Super Monkey Fan Club", "price": 8000 },
-          { "name": "Plasma Monkey Fan Club", "price": 35000 }
+          { "name": "Super Monkey Fan Club", "price": 9000 },
+          { "name": "Plasma Monkey Fan Club", "price": 54000 }
         ]
       },
       {
         "path": "Path 3",
         "upgrades": [
-          { "name": "Long Range Darts", "price": 95 },
-          { "name": "Enhanced Eyesight", "price": 130 },
-          { "name": "Crossbow", "price": 430 },
-          { "name": "Sharp Shooter", "price": 2500 },
-          { "name": "Crossbow Master", "price": 23000 }
+          { "name": "Long Range Darts", "price": 110 },
+          { "name": "Enhanced Eyesight", "price": 240 },
+          { "name": "Crossbow", "price": 750 },
+          { "name": "Sharp Shooter", "price": 2400 },
+          { "name": "Crossbow Master", "price": 25000 }
         ]
       }
     ]

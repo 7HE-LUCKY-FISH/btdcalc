@@ -1,34 +1,35 @@
 {
     "name": "Monkey Village",
-    "basePrice": 1500,
+    "basePrice": 1470,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Grow Blocker", "price": 250 },
-                { "name": "Radar Scanner", "price": 2500 },
-                { "name": "Jungle Drums", "price": 5000 },
-                { "name": "Primary Training", "price": 7000 },
-                { "name": "Primary Mentoring", "price": 12000 }
+                { "name": "Bigger Radius", "price": 480 },
+                { "name": "Jungle Drums", "price": 1800 },
+                { "name": "Primary Training", "price": 960 },
+                { "name": "Primary Mentoring", "price": 3000 },
+                { "name": "Primary Expertise", "price": 30000 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Monkey Business", "price": 300 },
-                { "name": "Monkey Commerce", "price": 600 },
-                { "name": "Monkey Town", "price": 8000 },
-                { "name": "Monkey City", "price": 20000 },
-                { "name": "Monkeyopolis", "price": 40000 }
+                { "name": "Glow Blocker", "price": 300 },
+                { "name": "Radar Scanner", "price": 2400 },
+                { "name": "Monkey Intelligence Bureau", "price": 9000 },
+                { "name": "Call to Arms", "price": 24000 },
+                { "name": "Homeland Defense", "price": 48000 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Bigger Radius", "price": 500 },
-                { "name": "Jungle Drums", "price": 1000 },
-                { "name": "Call to Arms", "price": 10000 },
-                { "name": "Homeland Defense", "price": 20000 }
+                { "name": "Monkey Business", "price": 600 },
+                { "name": "Monkey Commerce", "price": 600 },
+                { "name": "Monkey Town", "price": 12000 },
+                { "name": "Monkey City", "price": 3600 },
+                {"name": "Monkeyopolis", "price": 5000}
             ]
         }
     ]

@@ -1,35 +1,35 @@
 {
     "name": "Monkey Sub",
-    "basePrice": 350,
+    "basePrice": 390,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Longer Range", "price": 100 },
-                { "name": "Advanced Intel", "price": 300 },
-                { "name": "Submerge and Support", "price": 750 },
-                { "name": "Bloontonium Reactor", "price": 3000 },
-                { "name": "Energizer", "price": 20000 }
+                { "name": "Longer Range", "price": 155 },
+                { "name": "Advanced Intel", "price": 600 },
+                { "name": "Submerge and Support", "price": 840 },
+                { "name": "Bloontonium Reactor", "price": 2760 },
+                { "name": "Energizer", "price": 37200 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Twin Guns", "price": 150 },
-                { "name": "Barbed Darts", "price": 300 },
-                { "name": "Airburst Darts", "price": 1200 },
-                { "name": "Triple Guns", "price": 3000 },
-                { "name": "Pre-Emptive Strike", "price": 15000 }
+                { "name": "Barbed Darts", "price": 540 },
+                { "name": "Heat-tipped Darts", "price": 360 },
+                { "name": "Ballistic Missile", "price": 1620 },
+                { "name": "First Strike Capability", "price": 15600 },
+                { "name": "Pre-Emptive Strike", "price": 34800 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Submarine Support", "price": 200 },
-                { "name": "Ballistic Missile", "price": 500 },
-                { "name": "First Strike Capability", "price": 2500 },
-                { "name": "Sub Commander", "price": 15000 },
-                { "name": "Naval Commander", "price": 40000 }
+                { "name": "Twin Guns", "price": 540 },
+                { "name": "Airburst Darts", "price": 1200 },
+                { "name": "Triple Guns", "price": 1320 },
+                { "name": "Armor Piercing Darts", "price": 3600 },
+                { "name": "Sub Commander", "price": 30000 }
             ]
         }
     ]

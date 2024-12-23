@@ -1,35 +1,35 @@
 {
     "name": "Wizard Monkey",
-    "basePrice": 450,
+    "basePrice": 390,
     "upgradePaths": [
       {
         "path": "Path 1",
         "upgrades": [
-          { "name": "Fireball", "price": 250 },
-          { "name": "Wall of Fire", "price": 500 },
-          { "name": "Dragon's Breath", "price": 2000 },
-          { "name": "Phoenix", "price": 5000 },
-          { "name": "Wizard Lord Phoenix", "price": 30000 }
+          { "name": "Guided Magic", "price": 180 },
+          { "name": "Arcane Blast", "price": 540 },
+          { "name": "Arcane Mastery", "price": 1680 },
+          { "name": "Arcane Spike", "price": 12000 },
+          { "name": "Archmage", "price": 38400 }
         ]
       },
       {
         "path": "Path 2",
         "upgrades": [
-          { "name": "Intense Magic", "price": 150 },
-          { "name": "Monkey Sense", "price": 300 },
-          { "name": "Arcane Blast", "price": 1000 },
-          { "name": "Arcane Mastery", "price": 3500 },
-          { "name": "Archmage", "price": 25000 }
+          { "name": "Fireball", "price": 360 },
+          { "name": "Wall of Fire", "price": 960 },
+          { "name": "Dragon's Breath", "price": 3960 },
+          { "name": "Phoenix", "price": 8400 },
+          { "name": "Wizard Lord Phoenix", "price": 60000 }
         ]
       },
       {
         "path": "Path 3",
         "upgrades": [
-          { "name": "Guided Magic", "price": 200 },
-          { "name": "Arcane Spike", "price": 900 },
-          { "name": "Shimmer", "price": 1200 },
-          { "name": "Necromancer", "price": 4000 },
-          { "name": "Prince of Darkness", "price": 20000 }
+          { "name": "Intense Magic", "price": 360 },
+          { "name": "Monkey Sense", "price": 360 },
+          { "name": "Shimmer", "price": 1800 },
+          { "name": "Necromancer", "price": 3360 },
+          { "name": "Prince of Darkness", "price": 31800 }
         ]
       }
     ]

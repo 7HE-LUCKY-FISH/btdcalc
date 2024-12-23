@@ -1,35 +1,35 @@
 {
     "name": "Boomerang Monkey",
-    "basePrice": 325,
+    "basePrice": 380,
     "upgradePaths": [
       {
         "path": "Path 1",
         "upgrades": [
-          { "name": "Improved Rangs", "price": 200 },
-          { "name": "Glaives", "price": 400 },
-          { "name": "Bionic Boomerang", "price": 1000 },
-          { "name": "Turbo Charge", "price": 3000 },
-          { "name": "Perma Charge", "price": 20000 }
+          { "name": "Improved Rangs", "price": 240 },
+          { "name": "Glaives", "price": 335 },
+          { "name": "Glaive Ricochet", "price": 720 },
+          { "name": "M.O.A.R Glaives", "price": 3600 },
+          { "name": "Glaive Lord", "price": 39000 }
         ]
       },
       {
         "path": "Path 2",
         "upgrades": [
-          { "name": "Long Range Rangs", "price": 150 },
-          { "name": "Red Hot Rangs", "price": 300 },
-          { "name": "Kylie Boomerang", "price": 1200 },
-          { "name": "MOAR Glaives", "price": 4000 },
-          { "name": "Glaive Lord", "price": 35000 }
+          { "name": "Faster Throwing", "price": 210 },
+          { "name": "Faster Rangs", "price": 300 },
+          { "name": "Bionic Booerang", "price": 1740 },
+          { "name": "Turbo Charge", "price": 5040 },
+          { "name": "Perma Charge", "price": 42000 }
         ]
       },
       {
         "path": "Path 3",
         "upgrades": [
-          { "name": "Faster Throwing", "price": 250 },
-          { "name": "Even Faster Throwing", "price": 400 },
-          { "name": "Ricochet", "price": 1200 },
-          { "name": "Glaive Ricochet", "price": 5000 },
-          { "name": "Super Glaives", "price": 25000 }
+          { "name": "Long Range Rangs", "price": 120 },
+          { "name": "Red Hot Rangs", "price": 360 },
+          { "name": "Kylie Boomerang", "price": 1560 },
+          { "name": "MOAB Press", "price": 2880 },
+          { "name": "MOAB Domination", "price": 60000 }
         ]
       }
     ]

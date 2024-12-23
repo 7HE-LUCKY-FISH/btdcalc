@@ -1,34 +1,35 @@
 {
     "name": "Mortar Monkey",
-    "basePrice": 750,
+    "basePrice": 900,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Increased Accuracy", "price": 200 },
-                { "name": "Burny Stuff", "price": 600 },
-                { "name": "Signal Flare", "price": 1200 },
-                { "name": "Shattering Shells", "price": 3000 },
-                { "name": "The Big One", "price": 10000 }
+                { "name": "Bigger Blast", "price": 600 },
+                { "name": "Bloon Buster", "price": 600 },
+                { "name": "Shell Shock", "price": 1080 },
+                { "name": "The Big One", "price": 7800 },
+                { "name": "The Biggest One", "price": 43200 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Faster Reload", "price": 300 },
+                { "name": "Faster Reload", "price": 360 },
                 { "name": "Rapid Reload", "price": 600 },
-                { "name": "Heavy Shells", "price": 1500 },
-                { "name": "Artillery Battery", "price": 5000 },
-                { "name": "Pop and Awe", "price": 20000 }
+                { "name": "Heavy Shells", "price": 1080 },
+                { "name": "Artillery Battery", "price": 7080 },
+                { "name": "Pop and Awe", "price": 38400 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Bigger Blast", "price": 400 },
-                { "name": "Bloon Buster", "price": 800 },
-                { "name": "Shell Shock", "price": 2000 },
-                { "name": "Biggest One", "price": 25000 }
+                { "name": "Increased Accuracy", "price": 240 },
+                { "name": "Bunry Stuff", "price": 600 },
+                { "name": "Signal Flare", "price": 1080 },
+                { "name": "Shattering Shells", "price": 12600 },
+                { "name": "Blooncineration", "price": 48000}
             ]
         }
     ]

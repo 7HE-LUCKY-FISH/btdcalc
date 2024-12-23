@@ -1,34 +1,36 @@
 {
     "name": "Ice Monkey",
-    "basePrice": 500,
+    "basePrice": 600,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Enhanced Freeze", "price": 200 },
-                { "name": "Deep Freeze", "price": 300 },
-                { "name": "Arctic Wind", "price": 2000 },
-                { "name": "Snowstorm", "price": 8000 },
-                { "name": "Absolute Zero", "price": 20000 }
+                { "name": "Permafrost", "price": 180 },
+                { "name": "Cold Snap", "price": 420 },
+                { "name": "Ice Shards", "price": 1800 },
+                { "name": "Embrittlement", "price": 2640 },
+                { "name": "Super Brittle", "price": 33600 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Permafrost", "price": 100 },
-                { "name": "Cold Snap", "price": 250 },
-                { "name": "Ice Shards", "price": 1500 },
-                { "name": "Embrittlement", "price": 4000 },
-                { "name": "Super Brittle", "price": 25000 }
+                { "name": "Enhanced Freeze", "price": 270 },
+                { "name": "Deep Freeze", "price": 540 },
+                { "name": "Arctic Wind", "price": 3360 },
+                { "name": "Snowstorm", "price": 4560 },
+                { "name": "Absolute Zero", "price": 23040 }
             ]
         },
+
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Larger Radius", "price": 150 },
-                { "name": "Refreeze", "price": 500 },
-                { "name": "Icicles", "price": 3000 },
-                { "name": "Icicle Impale", "price": 10000 }
+                { "name": "Larger Radius", "price": 210 },
+                { "name": "Refreeze", "price": 270 },
+                { "name": "Cryo Cannon", "price": 2700},
+                { "name": "Icicles", "price": 3300 },
+                { "name": "Icicle Impale", "price": 36000 }
             ]
         }
     ]

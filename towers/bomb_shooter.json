@@ -5,31 +5,31 @@
       {
         "path": "Path 1",
         "upgrades": [
-          { "name": "Bigger Bombs", "price": 200 },
-          { "name": "Heavy Bombs", "price": 400 },
-          { "name": "Cluster Bombs", "price": 1200 },
-          { "name": "Recursive Cluster", "price": 4000 },
-          { "name": "Bomb Blitz", "price": 25000 }
+          { "name": "Bigger Bombs", "price": 300 },
+          { "name": "Heavy Bombs", "price": 780 },
+          { "name": "Really Big Bombs", "price": 1320 },
+          { "name": "Bloon Impact", "price": 3840 },
+          { "name": "Bloon Crush", "price": 66000 }
         ]
       },
       {
         "path": "Path 2",
         "upgrades": [
-          { "name": "Extra Range", "price": 150 },
-          { "name": "Missile Launcher", "price": 300 },
-          { "name": "MOAB Mauler", "price": 1000 },
-          { "name": "MOAB Assassin", "price": 3000 },
-          { "name": "MOAB Eliminator", "price": 20000 }
+          { "name": "Faster Reload", "price": 300 },
+          { "name": "Missile Launcher", "price": 480 },
+          { "name": "MOAB Mauler", "price": 1320 },
+          { "name": "MOAB Assassin", "price": 4020 },
+          { "name": "MOAB Eliminator", "price": 33600 }
         ]
       },
       {
         "path": "Path 3",
         "upgrades": [
-          { "name": "Faster Reload", "price": 250 },
-          { "name": "Rapid Reload", "price": 400 },
-          { "name": "Frag Bombs", "price": 900 },
-          { "name": "Fast Bombs", "price": 3500 },
-          { "name": "Big Bombs", "price": 15000 }
+          { "name": "Extra Range", "price": 240 },
+          { "name": "Frag Bombs", "price": 360 },
+          { "name": "Cluster Bombs", "price": 960 },
+          { "name": "Recursive Cluster", "price": 3360 },
+          { "name": "Bomb Blitz", "price": 30600 }
         ]
       }
     ]
