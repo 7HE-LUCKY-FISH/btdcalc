@@ -1,35 +1,35 @@
 {
     "name": "Glue Gunner",
-    "basePrice": 150,
+    "basePrice": 270,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Glue Soak", "price": 100 },
-                { "name": "Corrosive Glue", "price": 200 },
-                { "name": "Stickier Glue", "price": 300 },
-                { "name": "Stronger Glue", "price": 600 },
-                { "name": "Glue Strike", "price": 3000 }
+                { "name": "Glue Soak", "price": 240 },
+                { "name": "Corrosive Glue", "price": 360 },
+                { "name": "Bloon Dissolver", "price": 3000 },
+                { "name": "Bloon Liquefier", "price": 6000 },
+                { "name": "The Bloon Solver", "price": 26400 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Glue Splatter", "price": 150 },
-                { "name": "Glue Hose", "price": 400 },
-                { "name": "Glue Gunner", "price": 1000 },
-                { "name": "Glue Liquefier", "price": 5000 },
-                { "name": "Glue Storm", "price": 20000 }
+                { "name": "Bigger Globs", "price": 120 },
+                { "name": "Glue Splatter", "price": 1165 },
+                { "name": "Glue House", "price": 2520 },
+                { "name": "Glue Strike", "price": 4620 },
+                { "name": "Glue Storm", "price": 19200 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Bigger Globs", "price": 200 },
-                { "name": "Glue Splatter", "price": 500 },
-                { "name": "Glue Gunner", "price": 1500 },
-                { "name": "Glue Liquefier", "price": 4000 },
-                { "name": "Glue Storm", "price": 25000 }
+                { "name": "Stickier Glue", "price": 335 },
+                { "name": "Stronger Glue", "price": 480 },
+                { "name": "MOAB Glue", "price": 4320 },
+                { "name": "Relentless Glue", "price": 4800 },
+                { "name": "Super Glue", "price": 28800 }
             ]
         }
     ]

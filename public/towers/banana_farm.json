@@ -1,6 +1,6 @@
 {
     "name": "Banana Farm",
-    "basePrice": 1200,
+    "basePrice": 1500,
     "upgradePaths": [
         {
             "path": "Path 1",

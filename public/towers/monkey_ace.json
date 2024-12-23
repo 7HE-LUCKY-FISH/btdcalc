@@ -1,34 +1,35 @@
 {
     "name": "Monkey Ace",
-    "basePrice": 800,
+    "basePrice": 960,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Rapid Fire", "price": 300 },
-                { "name": "Lots More Darts", "price": 600 },
-                { "name": "Never Miss Targeting", "price": 2500 },
-                { "name": "Spectre", "price": 18000 },
-                { "name": "Flying Fortress", "price": 100000 }
+                { "name": "Rapid Fire", "price": 780 },
+                { "name": "Lots More Darts", "price": 780 },
+                { "name": "Fighter Plane", "price": 1200 },
+                { "name": "Operation Dart Storm", "price": 3600 },
+                { "name": "Sky Shredder", "price": 51000 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Exploding Pineapple", "price": 200 },
-                { "name": "Spy Plane", "price": 450 },
-                { "name": "Operation Dart Storm", "price": 3500 },
-                { "name": "Sky Shredder", "price": 25000 },
-                { "name": "Goliath Doomship", "price": 500000 }
+                { "name": "Exploding Pineapple", "price": 240 },
+                { "name": "Spy Plane", "price": 420 },
+                { "name": "Bomber Ace", "price": 1080 },
+                { "name": "Ground Zero", "price": 21600 },
+                { "name": "Tsar Bomba", "price": 36000 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Sharper Darts", "price": 150 },
-                { "name": "Centered Path", "price": 500 },
-                { "name": "Ground Zero", "price": 20000 },
-                { "name": "Tsar Bomba", "price": 40000 }
+                { "name": "Sharper Darts", "price": 600 },
+                { "name": "Centered Path", "price": 660 },
+                { "name": "Neva-Miss Targeting", "price": 3060},
+                { "name": "Spectre", "price": 28080 },
+                { "name": "Flying Fortress", "price": 102000 }
             ]
         }
     ]

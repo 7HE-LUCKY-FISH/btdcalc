@@ -1,35 +1,35 @@
 {
     "name": "Sniper Monkey",
-    "basePrice": 350,
+    "basePrice": 420,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Full Metal Jacket", "price": 300 },
-                { "name": "Large Caliber", "price": 600 },
-                { "name": "Deadly Precision", "price": 2500 },
-                { "name": "Maim MOAB", "price": 5000 },
-                { "name": "Cripple MOAB", "price": 20000 }
+                { "name": "Full Metal Jacket", "price": 420 },
+                { "name": "Large Caliber", "price": 1560 },
+                { "name": "Deadly Precision", "price": 3600 },
+                { "name": "Maim MOAB", "price": 6780 },
+                { "name": "Cripple MOAB", "price": 38400 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Night Vision Goggles", "price": 200 },
-                { "name": "Shrapnel Shot", "price": 400 },
-                { "name": "Bouncing Bullet", "price": 1500 },
-                { "name": "Supply Drop", "price": 3500 },
-                { "name": "Elite Sniper", "price": 14000 }
+                { "name": "Night Vision Goggles", "price": 300 },
+                { "name": "Shrapnel Shot", "price": 540 },
+                { "name": "Bouncing Bullet", "price": 2880 },
+                { "name": "Supply Drop", "price": 9120 },
+                { "name": "Elite Sniper", "price": 17400 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Fast Firing", "price": 100 },
-                { "name": "Even Faster Firing", "price": 200 },
-                { "name": "Semi-Automatic", "price": 1000 },
-                { "name": "Full Auto Rifle", "price": 4000 },
-                { "name": "Elite Defender", "price": 15000 }
+                { "name": "Fast Firing", "price": 540 },
+                { "name": "Even Faster Firing", "price": 540 },
+                { "name": "Semi-Automatic", "price": 3480 },
+                { "name": "Full Auto Rifle", "price": 4920 },
+                { "name": "Elite Defender", "price": 17640 }
             ]
         }
     ]

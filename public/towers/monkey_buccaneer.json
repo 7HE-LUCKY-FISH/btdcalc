@@ -1,35 +1,35 @@
 {
     "name": "Monkey Buccaneer",
-    "basePrice": 700,
+    "basePrice": 480,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Long Range", "price": 150 },
-                { "name": "Crow's Nest", "price": 300 },
-                { "name": "Cannon Ship", "price": 700 },
-                { "name": "Monkey Pirates", "price": 5000 },
-                { "name": "Pirate Lord", "price": 25000 }
+                { "name": "Faster Shooting", "price": 330 },
+                { "name": "Double Shot", "price": 510 },
+                { "name": "Destroyer", "price": 3660 },
+                { "name": "Aircraft Carrier", "price": 9600 },
+                { "name": "Carrier Flagship", "price": 29400 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Grape Shot", "price": 200 },
-                { "name": "Hot Shot", "price": 400 },
-                { "name": "Destroyer", "price": 2500 },
-                { "name": "Aircraft Carrier", "price": 20000 },
-                { "name": "Carrier Flagship", "price": 50000 }
+                { "name": "Grape Shot", "price": 660 },
+                { "name": "Hot Shot", "price": 600 },
+                { "name": "Cannon Ship", "price": 1080 },
+                { "name": "Monkey Pirates", "price": 5880 },
+                { "name": "Piate Lord", "price": 31200 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Faster Shooting", "price": 100 },
-                { "name": "Double Shot", "price": 300 },
-                { "name": "Merchantman", "price": 2000 },
-                { "name": "Favored Trades", "price": 5000 },
-                { "name": "Trade Empire", "price": 25000 }
+                { "name": "Long Range", "price": 240 },
+                { "name": "Crow's Nest", "price": 420 },
+                { "name": "Merchantman", "price": 2880 },
+                { "name": "Favored Trades", "price": 6600 },
+                { "name": "Trade Empire", "price": 27600 }
             ]
         }
     ]

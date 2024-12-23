@@ -30,8 +30,6 @@ interface TowerData {
 }
 
 
-
-
 interface Upgrade {
   name: string;
   price: number;
@@ -220,7 +218,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>BTD6 CHIMPS Calculator</h1>
+      <h1>BTD6 CHIMPS/IMPOPPABLE Calculator</h1>
       
       <div className="calc-form">
         <div className="input-group">

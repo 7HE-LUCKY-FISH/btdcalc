@@ -5,30 +5,31 @@
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Quad Darts", "price": 500 },
-                { "name": "Pursuit", "price": 1500 },
-                { "name": "Razor Rotors", "price": 2500 },
-                { "name": "Apache Dartship", "price": 19000 },
-                { "name": "Apache Prime", "price": 85000 }
+                { "name": "Quad Darts", "price": 960 },
+                { "name": "Pursuit", "price": 600 },
+                { "name": "Razor Rotors", "price": 2100 },
+                { "name": "Apache Dartship", "price": 23520 },
+                { "name": "Apache Prime", "price": 54000 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Bigger Jets", "price": 300 },
-                { "name": "Downdraft", "price": 1200 },
-                { "name": "Support Chinook", "price": 7500 },
-                { "name": "Special Poperations", "price": 35000 }
+                { "name": "Bigger Jets", "price": 360 },
+                { "name": "IFR", "price": 720},
+                { "name": "Downdraft", "price": 4200 },
+                { "name": "Support Chinook", "price": 11400 },
+                { "name": "Special Poperations", "price": 36000 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
-                { "name": "Faster Darts", "price": 200 },
-                { "name": "Faster Firing", "price": 400 },
-                { "name": "Moab Shove", "price": 3000 },
-                { "name": "Comanche Defense", "price": 8000 },
-                { "name": "Comanche Commander", "price": 60000 }
+                { "name": "Faster Darts", "price": 300 },
+                { "name": "Faster Firing", "price": 420 },
+                { "name": "Moab Shove", "price": 3600 },
+                { "name": "Comanche Defense", "price": 10200 },
+                { "name": "Comanche Commander", "price": 38400 }
             ]
         }
     ]

@@ -1,6 +1,6 @@
 {
     "name": "Alchemist",
-    "basePrice": 550,
+    "basePrice": 660,
     "upgradePaths": [
         {
             "path": "Path 1",

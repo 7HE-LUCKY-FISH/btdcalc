@@ -1,35 +1,35 @@
 {
     "name": "Ninja Monkey",
-    "basePrice": 500,
+    "basePrice": 480,
     "upgradePaths": [
         {
             "path": "Path 1",
             "upgrades": [
-                { "name": "Ninja Discipline", "price": 200 },
-                { "name": "Sharp Shurikens", "price": 350 },
-                { "name": "Double Shot", "price": 700 },
-                { "name": "Bloonjitsu", "price": 3000 },
-                { "name": "Grandmaster Ninja", "price": 35000 }
+                { "name": "Ninja Discipline", "price": 420 },
+                { "name": "Sharp Shurikens", "price": 420 },
+                { "name": "Double Shot", "price": 1080 },
+                { "name": "Bloonjitsu", "price": 3300 },
+                { "name": "Grandmaster Ninja", "price": 42000 }
             ]
         },
         {
             "path": "Path 2",
             "upgrades": [
-                { "name": "Distractioin", "price": 250 },
-                { "name": "Counter-Espionage", "price": 500 },
-                { "name": "Shinobi Tactics", "price": 2000 },
-                { "name": "Bloon Sabotage", "price": 5000 },
-                { "name": "Master Bomber", "price": 40000 }
+                { "name": "Distractioin", "price": 300 },
+                { "name": "Counter-Espionage", "price": 480 },
+                { "name": "Shinobi Tactics", "price": 1440 },
+                { "name": "Bloon Sabotage", "price": 6240 },
+                { "name": "Master Bomber", "price": 26400 }
             ]
         },
         {
             "path": "Path 3",
             "upgrades": [
                 {"name": "Seeking Shuriken", "price": 360},
-                { "name": "Caltrops", "price": 100 },
-                { "name": "Flash Bomb", "price": 750 },
-                { "name": "Sticky Bomb", "price": 3000 },
-                { "name": "Master Bomber", "price": 40000 }
+                { "name": "Caltrops", "price": 540 },
+                { "name": "Flash Bomb", "price": 2700 },
+                { "name": "Sticky Bomb", "price": 6000 },
+                { "name": "Master Bomber", "price": 48000 }
             ]
         }
     ]
