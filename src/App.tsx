@@ -8,6 +8,7 @@ interface ChimpsCalcState {
   currentRound: string; // Changed from number to string
   currentMoney: string; // Changed from number to string
   selectedTowers: Set<string>;
+  targetRound: string;
 }
 
 interface ValidationError {
@@ -75,12 +76,14 @@ function App() {
   const [state, setState] = useState<ChimpsCalcState>({
     currentRound: '6', // Changed to string
     currentMoney: '650', // Changed to string
-    selectedTowers: new Set()
+    selectedTowers: new Set(),
+    targetRound: '100'
   });
 
   const [result, setResult] = useState<{
     remainingMoney: number;
     earnedSoFar: number;
+    targetIncome: number;
     affordableUpgrades: any[];
   } | null>(null);
 
@@ -90,24 +93,38 @@ function App() {
     return CHIMPS_ROUND_INCOME[parseInt(round)] || 0;
   };
 
-  const calculateRemainingMoney = (currentRound: string, currentMoney: string): number => {
+  const calculateRemainingMoney = (currentRound: string, targetRound: string,currentMoney: string): {remainingMoney: number, targetIncome: number}=> {
     const roundNum = parseInt(currentRound);
     const moneyNum = parseFloat(currentMoney);
+    const targetRoundNum = parseInt(targetRound);
     const roundIncome = CHIMPS_MONEY_REMAIN[roundNum - 1] || 0;
+    const targetIncome = CHIMPS_MONEY_REMAIN[targetRoundNum - 1] || 0;
     const remainingMoney = (TOTAL_CHIMPS_MONEY - roundIncome) + moneyNum;
-    return Math.round(remainingMoney * 100) / 100;
+    const remainingToTarget = (targetIncome - roundIncome) + moneyNum;
+    return {
+      remainingMoney: Math.round(remainingMoney * 100) / 100,
+      targetIncome: Math.round(remainingToTarget * 100) / 100
+    };
   };
 
   // Update validation to handle string values
   const validateInputs = (): ValidationError[] => {
     const errors: ValidationError[] = [];
     const roundNum = parseInt(state.currentRound);
+    const targetRoundNum = parseInt(state.targetRound);
     const moneyNum = parseFloat(state.currentMoney);
+
     
     if (isNaN(roundNum) || roundNum < 6 || roundNum > 100) {
       errors.push({
         field: 'round',
         message: 'Round must be between 6 and 100'
+      });
+    }
+    if (isNaN(targetRoundNum) || targetRoundNum < roundNum || targetRoundNum > 100) {
+      errors.push({
+        field: 'targetRound',
+        message: 'Target round must be between current round and 100'
       });
     }
   
@@ -150,11 +167,12 @@ function App() {
     setErrors(validationErrors);
 
     if (validationErrors.length === 0) {
-      const remaining = calculateRemainingMoney(state.currentRound, state.currentMoney);
+      const calculation = calculateRemainingMoney(state.currentRound, state.targetRound, state.currentMoney);
       const earned = getMoneyGainedForRound(state.currentRound);
 
       const resultData = {
-        remainingMoney: remaining,
+        remainingMoney: calculation.remainingMoney,
+        targetIncome: calculation.targetIncome,
         earnedSoFar: earned,
         affordableUpgrades: []
       };
@@ -188,7 +206,7 @@ function App() {
               const upgrades = towerData.data.upgradePaths
                 .map(path => {
                   const affordableUpgradesInPath = path.upgrades
-                    .filter(upgrade => upgrade.price <= remaining);
+                    .filter(upgrade => upgrade.price <= calculation.targetIncome);
                   
                   return affordableUpgradesInPath.length > 0 
                     ? { path: path.path, upgrades: affordableUpgradesInPath }
@@ -249,6 +267,35 @@ function App() {
           />
         </div>
         <div className="input-group">
+          <label htmlFor="targetRound">Target Round:</label>
+          <input
+            type="number"
+            id="targetRound"
+            value={state.targetRound}
+            onChange={(e) => setState({
+              ...state,
+              targetRound: e.target.value
+            })}
+            onBlur={(e) => {
+              const value = parseInt(e.target.value);
+              if (!isNaN(value)) {
+                setState({
+                  ...state,
+                  targetRound: Math.max(parseInt(state.currentRound), Math.min(100, value)).toString()
+                });
+              } else {
+                setState({
+                  ...state,
+                  targetRound: '100'
+                });
+              }
+            }}
+            className={errors.some(e => e.field === 'targetRound') ? 'error' : ''}
+          />
+        </div>
+
+
+        <div className="input-group">
           <label htmlFor="money">Current Money:</label>
           <input
             type="number"
@@ -268,6 +315,8 @@ function App() {
             className={errors.some(e => e.field === 'money') ? 'error' : ''}
           />
         </div>
+
+
         <div className="input-group">
           <label htmlFor="tower">Select Tower:</label>
           <div className="tower-grid">
@@ -300,6 +349,7 @@ function App() {
     <h3>Upgrades you can afford before round 100:</h3>
     <p>Money Earned This Round: ${result.earnedSoFar}</p>
     <p>Remaining Money Until Round 100: ${result.remainingMoney}</p>
+    <p>Remaining Money Until Round {state.targetRound}: ${result.targetIncome}</p>
     {result.affordableUpgrades && (
       <div className="available-upgrades">
         <h4>Available Upgrades:</h4>
