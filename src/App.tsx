@@ -297,7 +297,7 @@ function App() {
 
 {result && (
   <div className="results">
-    <h3>Results:</h3>
+    <h3>Upgrades you can afford before round 100:</h3>
     <p>Money Earned This Round: ${result.earnedSoFar}</p>
     <p>Remaining Money Until Round 100: ${result.remainingMoney}</p>
     {result.affordableUpgrades && (
