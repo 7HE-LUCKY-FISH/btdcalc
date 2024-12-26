@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #e6e6e6;
   color: #000;
 }
 
@@ -11,7 +11,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #f8f9fa;
+  background-color: #f2f2fa;
   border-radius: 8px;
   color: #000;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -43,6 +43,8 @@
   font-size: 1rem;
   transition: border-color 0.2s;
   width: 100%;
+  background-color: #b3aea7;
+  color: #333;
 }
 
 .input-group input:focus {
@@ -209,11 +211,13 @@ button:hover {
 }
 
 .upgrade-path ul {
+  list-style-type: none;
   margin: 0.5rem 0;
   padding-left: 1.5rem;
 }
 
 .upgrade-path li {
+  padding: 0.25rem 0;
   margin: 0.25rem 0;
   color: #444;
 }

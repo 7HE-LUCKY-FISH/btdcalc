@@ -205,9 +205,17 @@ function App() {
             .map(towerData => {
               const upgrades = towerData.data.upgradePaths
                 .map(path => {
+                  let runningTotal = 0;
                   const affordableUpgradesInPath = path.upgrades
-                    .filter(upgrade => upgrade.price <= calculation.targetIncome);
-                  
+                    .filter(upgrade => {
+                      const newTotal = runningTotal + upgrade.price;
+                      if (newTotal <= calculation.targetIncome) {
+                        runningTotal = newTotal;
+                        return true;
+                      }
+                      return false;
+                    });
+
                   return affordableUpgradesInPath.length > 0 
                     ? { path: path.path, upgrades: affordableUpgradesInPath }
                     : null;
@@ -348,11 +356,11 @@ function App() {
   <div className="results">
     <h3>Upgrades you can afford before round 100:</h3>
     <p>Money Earned This Round: ${result.earnedSoFar}</p>
-    <p>Remaining Money Until Round 100: ${result.remainingMoney}</p>
-    <p>Remaining Money Until Round {state.targetRound}: ${result.targetIncome}</p>
+    <p>Money Earned from {state.currentRound} till {state.targetRound}: ${result.targetIncome}</p>
+    <p>Remaining Money to be Earned Until Round 100: ${result.remainingMoney}</p>
     {result.affordableUpgrades && (
       <div className="available-upgrades">
-        <h4>Available Upgrades:</h4>
+        <h4>Available Upgrades Paths:</h4>
         {result.affordableUpgrades.length > 0 ? (
           result.affordableUpgrades.map((towerData, index) => (
             <div key={index} className="tower-upgrades">
