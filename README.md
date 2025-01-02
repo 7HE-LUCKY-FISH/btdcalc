@@ -2,7 +2,7 @@
 
 BTD CHIMPS Calculator is a React-based application designed to assist players in strategizing and optimizing their gameplay in the CHIMPS mode of Bloons Tower Defense (BTD6). This tool helps track rounds, calculate earned money, and suggest optimal tower upgrades based on remaining resources.
 
-This is my first time working with typescript as I thought it would be fun to learn it so I will keep working on it expect more version in the future with a way more polished look than what it is right now. -Ly
+This is my first time working with typescript as I thought it would be fun to learn it so I will keep working on it expect more version in the future with a way more polished look than what it is right now. *-Ly*
 
 ## Features
 
@@ -18,7 +18,9 @@ This is my first time working with typescript as I thought it would be fun to le
 
    ```bash
    git clone https://github.com/7He-lucky-fish/btdcalc.git
-   cd btdcalc
-  ```
-
-2.  Or check the website link under the About section I will try to update it regularly. Since I want to add a feature in which you are able to update a image it will try to track money. https://7he-lucky-fish.github.io/btdcalc/ 
+   cd btdcalc```
+2. 
+Access the Website
+Alternatively, visit the web app directly:
+BTD CHIMPS Calculator
+(Note: Future updates will include features like image uploads to help track money automatically.)
