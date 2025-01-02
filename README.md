@@ -19,4 +19,6 @@ This is my first time working with typescript as I thought it would be fun to le
    ```bash
    git clone https://github.com/7He-lucky-fish/btdcalc.git
    cd btdcalc
-  ````
+  ```
+
+2.  Or check the website link under the About section I will try to update it regularly. Since I want to add a feature in which you are able to update a image it will try to track money. https://7he-lucky-fish.github.io/btdcalc/ 
